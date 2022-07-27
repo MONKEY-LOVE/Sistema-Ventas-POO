@@ -1,0 +1,18 @@
+CREATE TABLE carrito(
+id INT(20) NOT NULL AUTO_INCREMENT,
+cantidad VARCHAR(10) NOT NULL,
+nombre_producto VARCHAR(15) NOT NULL,
+codigo_producto VARCHAR(10) NOT NULL,
+valor_unitario VARCHAR(10) NOT NULL,
+total VARCHAR(10) NOT NULL,
+PRIMARY KEY(id)
+);
+
+CREATE TABLE inventario(
+id INT(20) NOT NULL AUTO_INCREMENT,
+cantidad VARCHAR(10) NOT NULL,
+nombre_producto VARCHAR(15) NOT NULL,
+codigo_producto VARCHAR(10) NOT NULL,
+valor_unitario VARCHAR(10) NOT NULL,
+PRIMARY KEY(id)
+);
